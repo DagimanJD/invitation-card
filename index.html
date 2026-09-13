@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4b2e1d">
+  <title>Elshaday Bisrat | Graduation Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+  <div id="openingScreen" class="opening-screen">
+    <div class="opening-card">
+      <div class="monogram"><span>E</span><small>&amp;</small><span>B</span></div>
+      <p class="eyebrow">GRADUATION CELEBRATION</p>
+      <h1>Elshaday Bisrat</h1>
+      <p class="opening-subtitle">A special invitation to celebrate a beautiful achievement</p>
+      <button id="openBtn" class="open-btn">TOUCH TO OPEN</button>
+    </div>
+  </div>
+
+  <main class="invitation">
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow gold">GRADUATION INVITATION</p>
+        <h1>Elshaday Bisrat</h1>
+        <h2>ወ/ሪት ኤልሻዳይ ብስራት</h2>
+        <div class="date-line">መስከረም 10, 2018 &nbsp;|&nbsp; September 20, 2026</div>
+      </div>
+      <div class="scroll-hint">SCROLL ↓</div>
+    </header>
+
+    <section class="section verse">
+      <p class="eyebrow">A PROMISE OF HOPE</p>
+      <div class="ornament">✦</div>
+      <p class="amharic">
+        “ለእናንተ ያለኝን ዕቅድ እኔ ዐውቃለሁ” ይላል እግዚአብሔር፤
+        “ዕቅዱም ፍጻሜው ያማረና ተስፋ የሚሰጣችሁ፣
+        የሰላም ሐሳብ እንጂ ለክፉ አይደለም።”
+      </p>
+      <p class="english-quote">
+        “For I know the plans I have for you,” declares the Lord,
+        “plans to prosper you and not to harm you, plans to give you hope and a future.”
+      </p>
+      <p class="reference">Jeremiah 29:11</p>
+    </section>
+
+    <section class="section message">
+      <p class="eyebrow">YOU ARE WARMLY INVITED</p>
+      <h2>ውድ ቤተሰቦቻችን እና ጓደኞቻችን</h2>
+      <div class="ornament">✦</div>
+      <p class="amharic body-text">
+        እነሆ ልዑል እግዚአብሔር ፈቅዶ የምርቃት ሥነ-ሥርዓት
+        ለመፈጸም ተቃርበናል። በመሆኑም ከታች በተጠቀሰው
+        ጊዜና ቦታ ተገኝታችሁ የደስታችን ተካፋይ
+        እንድትሆኑ ስንጋብዛችሁ በታላቅ ደስታ ነው።
+      </p>
+      <p class="graduate">ወ/ሪት ኤልሻዳይ ብስራት</p>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow gold">COUNTING DOWN TO THE BIG DAY</p>
+      <h2>ይህን ያህል ቀን ቀረው!</h2>
+      <div class="countdown">
+        <div class="time-box"><strong id="days">00</strong><span>DAYS</span></div>
+        <div class="time-box"><strong id="hours">00</strong><span>HOURS</span></div>
+        <div class="time-box"><strong id="minutes">00</strong><span>MINUTES</span></div>
+        <div class="time-box"><strong id="seconds">00</strong><span>SECONDS</span></div>
+      </div>
+    </section>
+
+    <section class="section details">
+      <p class="eyebrow">CELEBRATION DETAILS</p>
+      <h2>Join Us</h2>
+      <div class="ornament">✦</div>
+      <div class="details-grid">
+        <article class="detail-card">
+          <div class="icon">🎓</div>
+          <h3>Occasion</h3>
+          <p>Graduation Celebration</p>
+        </article>
+        <article class="detail-card">
+          <div class="icon">📅</div>
+          <h3>Date</h3>
+          <p>September 20, 2026</p>
+          <p class="amharic-small">መስከረም 10, 2018</p>
+        </article>
+        <article class="detail-card">
+          <div class="icon">⏰</div>
+          <h3>Time</h3>
+          <p>7:00 Local Time</p>
+        </article>
+        <article class="detail-card">
+          <div class="icon">📍</div>
+          <h3>Venue</h3>
+          <p>Semen Mazaegaja</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section photos">
+      <p class="eyebrow">A SPECIAL MOMENT</p>
+      <h2>Celebrating Her Achievement</h2>
+      <div class="ornament">✦</div>
+      <div class="photo-frame">
+        <img src="image/elshaday.jpg" alt="Elshaday Bisrat graduation celebration photo">
+      </div>
+    </section>
+
+    <section class="section telegram-section">
+      <p class="eyebrow">SHARE YOUR MEMORIES</p>
+      <h2>📸 Send Your Photos</h2>
+      <div class="ornament">✦</div>
+      <p class="amharic">እባክዎን ያነሷቸውን ፎቶዎች እዚህ ያጋሩን።</p>
+      <p>Please share your photos with us here.</p>
+      <a class="telegram-btn" href="https://t.me/+iLU25UPXTJ4xMTI0" target="_blank" rel="noopener">SEND PHOTOS VIA TELEGRAM</a>
+    </section>
+
+    <section class="section guest">
+      <p class="eyebrow">PERSONAL INVITATION</p>
+      <h2>የእርስዎ መለያ <span>| YOUR ID</span></h2>
+      <div class="ornament">✦</div>
+      <p id="guestName" class="guest-name">Guest</p>
+      <div id="qrcode" aria-label="Guest QR code"></div>
+      <p id="guestId" class="guest-id">G000</p>
+      <p class="guest-note">Please keep your Guest ID for event identification.</p>
+    </section>
+
+    <footer>
+      <p>With love and gratitude</p>
+      <strong>Elshaday Bisrat</strong>
+      <p class="footer-small">Graduation Celebration • 2026</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
